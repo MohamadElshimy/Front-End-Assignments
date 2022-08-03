@@ -5,24 +5,63 @@ body {
 }
 
 form {
-  line-height: 25px;
+  line-height: 30px;
+  font-size: 1.5em;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 3.5em;
   overflow: break;
+}
+
+p {
+	font-size: 1.3em;
+	color: #505050;
 }
 
 table, th, td {
   border: 1px solid black;
+  border-radius: 10px;
   font-family: Arial, sans-serif;
   text-align: center;  
+  color: #3F0706;
 }
 
 table {
   margin-left:auto; 
   margin-right:auto;
   width:70%;   
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 20px 2px;
+  cursor: pointer;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+table tr:nth-child(even):hover td{
+    background-color: #aaaaaa;
+}
+
+table tr:nth-child(even) td{
+    background-color: #ddddff;
+}
+
+tr:hover td { background-color: #aaaaaa; 
 }
 
 .head1{
@@ -32,19 +71,19 @@ table {
 }
 
 .overlay {
-  width: 80%;
+  width: 40%;
   min-width: 30%;
   margin: 3% auto;
   display: block;
   padding: 2%;
-  height: 90vh;
+  height: 73vh;
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 40px;
   text-align: center;
 }
 
 .overlay2 {
-  width: 80%;
+  width: 55%;
   min-width: 30%;
   margin: 3% auto;
   display: block;
@@ -54,4 +93,3 @@ table {
   border-radius: 40px;
   text-align: center;
 }
-
