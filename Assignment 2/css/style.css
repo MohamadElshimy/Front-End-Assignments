@@ -1,0 +1,57 @@
+h1 {
+	font-size: 4.5em;
+    color: #661c16;
+    margin: 1% auto;
+	font-family: "Fjalla One", Arial;
+}
+
+h2{
+	font-size: 2.5em;
+    color: #661c16;
+    margin: 1% auto;
+	font-family: "Fjalla One", Arial;
+}
+
+button{
+	margin: 1% auto;
+	background-color: #06aac7;
+    width: 22%;
+    height: 50px;
+    font-size: 2.5vw;
+    color: #16294a;
+    box-shadow: 2px 2px 2px 2px #6a6a6b;
+	border-radius: 40px;
+    border: 2px solid #6a6a6b;
+	font-family: "Fjalla One", Arial;
+	cursor: pointer;
+}
+	
+.overlay {
+  width: 70%;
+  margin: 2% auto;
+  display: block;
+  padding: 1%;
+  background-color: rgba(200, 200, 200, 0.9);
+  border-radius: 40px;
+  text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 320px;
+    margin: 1.5% auto;
+    background-color: #292923;
+    color: #807b00;
+}
+
+.cell {
+    font-family: 'Brush Script MT', cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #ecd7ba;
+    border: 2px solid #ecd7ba;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
